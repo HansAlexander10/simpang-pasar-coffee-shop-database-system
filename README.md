@@ -158,6 +158,6 @@ Potential improvements for the system include:
 
 ## Author
 
-Hans Alexander
-Informatics Engineering Student
-Focused on Data Science, SQL, and Intelligent Data Systems
+Hans Alexander  
+Informatics Engineering Student  
+Interests: Data Science, SQL, and Intelligent Data Systems

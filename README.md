@@ -27,53 +27,54 @@ The database system consists of several core entities that represent the coffee 
 
 ### Main Tables
 
-Customers  
+- Customers  
 Stores customer information including identification and contact data.
 
-Products  
+- Products  
 Contains product details such as coffee menu items, prices, and categories.
 
-Orders  
+- Orders  
 Stores transaction records for each customer purchase.
 
-Order Details  
+- Order Details  
 Contains detailed information for each product included in a transaction.
 
-Inventory  
+- Inventory  
 Tracks stock levels for coffee ingredients and products.
 
-Employees  
+- Employees  
 Stores employee information related to store operations.
 
 ---
 
 ## Database Schema Example
-Customers
 
-customer_id
-customer_name
+- Customers
+
+customer_id,
+customer_name,
 phone_number
 
-Products
+- Products
 
-product_id
-product_name
-category
+product_id,
+product_name,
+category,
 price
 
-Orders
+- Orders
 
-order_id
-customer_id
-order_date
+order_id,
+customer_id,
+order_date,
 total_price
 
-Order_Details
+- Order_Details
 
-order_detail_id
-order_id
-product_id
-quantity
+order_detail_id,
+order_id,
+product_id,
+quantity,
 subtotal
 
 ---
